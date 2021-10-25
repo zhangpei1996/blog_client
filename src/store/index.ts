@@ -17,8 +17,8 @@ const store = createStore<IRootState>({
       postCount: 0,
       commentList: [],
       commentCount: 0,
-      keyword: '',
-      label: ''
+      keyword: null,
+      label: null
     };
   },
   getters: {
